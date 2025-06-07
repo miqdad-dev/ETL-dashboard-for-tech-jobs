@@ -18,7 +18,7 @@ st.title("🌍 Global Tech Talent Dashboard")
 st.caption("Built by Miqdad Issa — Powered by Python, Pandas, and Streamlit")
 
 # Data loading
-df = pd.read_csv("/data/cleaned_jobs.csv")
+df = pd.read_csv("data/cleaned_jobs.csv")
 
 # Data preview toggle
 with st.expander("🔍 Preview Raw Data"):
