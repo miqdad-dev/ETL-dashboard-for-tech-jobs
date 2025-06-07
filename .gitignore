@@ -11,7 +11,7 @@ venv/
 .ipynb_checkpoints/
 
 # Data files
-*.csv
+
 *.json
 *.db
 *.sqlite3
@@ -24,6 +24,5 @@ Thumbs.db
 .vscode/
 
 # Image outputs
-*.png
 *.jpg
 outputs/
