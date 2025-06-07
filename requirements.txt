@@ -1,0 +1,6 @@
+pandas
+requests
+matplotlib
+beautifulsoup4
+sqlalchemy
+notebook
