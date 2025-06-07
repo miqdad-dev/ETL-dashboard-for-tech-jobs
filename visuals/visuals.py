@@ -9,7 +9,7 @@ def salary_distribution(df):
     plt.ylabel("Frequency")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig(r"Project\Global_Tech_Talent_Dashboard\visuals\salary_distribution.png")
+    plt.savefig(r"visuals/salary_distribution.png")
     plt.close()
 
 def job_count_by_location(df):
@@ -19,7 +19,7 @@ def job_count_by_location(df):
     plt.xlabel("Location")
     plt.ylabel("Job Postings")
     plt.tight_layout()
-    plt.savefig(r"Project\Global_Tech_Talent_Dashboard\visuals\job_count_by_location.png")
+    plt.savefig(r"visuals/job_count_by_location.png")
     plt.close()
 
 def average_salary_by_role(df):
@@ -30,5 +30,5 @@ def average_salary_by_role(df):
     plt.ylabel("Average Salary (USD)")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(r"Project\Global_Tech_Talent_Dashboard\visuals\avg_salary_by_role.png")
+    plt.savefig(r"visuals/avg_salary_by_role.png")
     plt.close()
