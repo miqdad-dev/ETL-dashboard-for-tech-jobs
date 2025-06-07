@@ -9,7 +9,7 @@ def salary_distribution(df):
     plt.ylabel("Frequency")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("visuals//salary_distribution.png")
+    plt.savefig("visuals/salary_distribution.png")
     plt.close()
 
 def job_count_by_location(df):
@@ -30,5 +30,5 @@ def average_salary_by_role(df):
     plt.ylabel("Average Salary (USD)")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("/visuals/avg_salary_by_role.png")
+    plt.savefig("visuals/avg_salary_by_role.png")
     plt.close()
